@@ -1,0 +1,10 @@
+i2c-lcd module: we choose this i2c lcd module  the smallest number of wire that we need to communicate with lcd
+
+atmega328: because it have uart, spi and i2c module intergrated inside this microcontroller so it easy to communicate 
+with orther peripherals
+
+mfrc522 module: we selected it based on the datasheet of mfrc522 chip(how it configure with resistors and capacitors)
+
+power supply: becauase the atmega and mfrc522 chip need 5V and 3.3V to operate respectively
+
+uart module: microcontroller must receive the data from the mfrc522 chip and send it to this ch340 module and show the data on hercules software
